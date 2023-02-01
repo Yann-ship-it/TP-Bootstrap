@@ -1,0 +1,23 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#nav {
+  background-color: rgb(44, 62, 80);
+}
+
+.green {
+  background-color: rgb(26, 188, 156) !important;
+}
+
+.bg-gray-custom {
+  background-color: rgb(44, 62, 80);
+}
+
+.footer-color {
+  background-color: rgb(26, 37, 47);
+}
+
+.gray {
+  color: rgb(44, 62, 80);
+}/*# sourceMappingURL=style.css.map */
