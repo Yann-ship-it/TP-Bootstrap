@@ -1,5 +1,17 @@
+@font-face {
+  font-family: "MontserratBold";
+  src: url("./font/Mont/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./font/Mont/Montserrat.ttf");
+}
 * {
   font-family: "Montserrat", sans-serif;
+}
+
+.bold-text {
+  font-family: "MontserratBold", sans-serif;
 }
 
 .font-title {
@@ -62,4 +74,8 @@ input#message {
 
 .star {
   font-size: 25px;
+}
+
+.footer-text {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
