@@ -22,6 +22,14 @@
   font-weight: bold;
 }
 
+.spacer-white {
+  border: 2px solid white;
+}
+
+.spacer-black {
+  border: 2px solid rgb(44, 62, 80);
+}
+
 .gray {
   color: rgb(44, 62, 80);
 }
