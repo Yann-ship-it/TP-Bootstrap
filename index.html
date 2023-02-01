@@ -25,8 +25,8 @@
 <body>
 
   <div>
-    <header id="nav" class="d-flex flex-wrap justify-content-center py-3">
-      <div class="container-fluid d-flex flex-wrap justify-content-center ">
+    <header id="nav" class="d-flex flex-wrap container-fluid justify-content-center py-3">
+      <div class="container d-flex flex-wrap justify-content-center ">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
           <span class="fs-4 text-uppercase text-white bold-text">Start bootstrap</span>
 
@@ -118,28 +118,30 @@
 
 
 
-  <div class="green d-flex flex-column justify-content-center mt-5 py-5">
-    <h2 class="fw-normal pt-4 text-center text-white text-uppercase bold-text ">About</h2>
+  <div class="container-fluid green d-flex flex-column justify-content-center mt-5 py-5">
+    <h2 class="pt-4 text-center text-white text-uppercase bold-text ">About</h2>
+
     <div class="d-flex py-4 justify-content-center align-items-center mb-5 w-50 m-auto">
       <div class="w-25 spacer-white"></div>
       <i class="fa-solid fa-star text-white px-3 star"></i>
       <div class="w-25 spacer-white"></div>
     </div>
-    <div class="col-lg-6 py-3 d-flex justify-content-center flex-column text-center m-auto">
 
-
-      <div class="d-flex">
-        <p class="text-white text-start w-75 px-2">Freelancer is a free bootstrap theme created by Start Bootstrap. The
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <p class="col-4 text-white text-start px-2">Freelancer is a free bootstrap theme created by Start Bootstrap. The
           download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS
           stylesheets for easy customization.</p>
-        <p class="text-white text-start w-75 px-2">You can create your own custom avatar for the masthead, change the
+        <p class="col-4 text-white text-start px-2">You can create your own custom avatar for the masthead, change the
           icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
       </div>
-      <button class="btn w-25 m-auto text-white my-5 border-white p-3"><i class="fa-solid fa-download"></i> Free
-        Download!</button>
-      <i class="bi bi-download"></i>
     </div>
-  </div><!-- /.col-lg-4 -->
+
+    <button class="btn w-25 m-auto text-white my-5 border-white p-3"><i class="fa-solid fa-download"></i> Free
+      Download!</button>
+    <i class="bi bi-download"></i>
+    </div>
+  </div>
 
   <div>
     <section class="text-center container p-5">
@@ -173,14 +175,14 @@
   </div>
   </section>
 
-  <footer class="bg-gray-custom">
-    <div class="p-5 container d-flex justify-content-around">
-      <div class="w-25">
+  <footer class="container-fuild bg-gray-custom">
+    <div class="row p-5 container m-auto">
+      <div class="col-sm">
         <h2 class="text-white text-uppercase text-center font-weight-bold footer-text">Location</h2>
         <p class="text-center text-white">2215 John Daniel Drive
           Clark, MO 65243</p>
       </div>
-      <div class="w-25">
+      <div class="col-sm">
         <h2 class="text-white text-uppercase text-center font-weight-bold footer-text" >Around the web</h2>
         <div class="d-flex justify-content-evenly w-75 m-auto">
           <i
@@ -193,7 +195,7 @@
             class="fa-brands fa-dribbble border border-light icons d-flex align-items-center justify-content-center text-white"></i>
         </div>
       </div>
-      <div class="w-25">
+      <div class="col-sm">
         <h2 class="text-white text-uppercase text-center text-nowrap font-weight-bold footer-text">About Freelancer</h2>
         <p class="text-white text-center">Freelance is a free to use, MIT licensed Bootstrap theme created by Start
           Bootstrap .</p>
