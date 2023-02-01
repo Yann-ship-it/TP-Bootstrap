@@ -6,6 +6,10 @@
   font-size: 65px;
 }
 
+.font-bottom {
+  font-size: 12px;
+}
+
 #nav {
   background-color: rgb(44, 62, 80);
 }
